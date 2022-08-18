@@ -536,7 +536,7 @@ function deleteFavourite() {
 
 function Listener(){
     const audio = new Audio();
-    audio.src ="Audio/speech_20220818185207956.mp3" ;
+    audio.src ="audio/speech_20220818185207956.mp3" ;
     audio.play();
 }
 // check if user has already favourited this restaurant, and show the appropriate icons
