@@ -1,9 +1,9 @@
-(functionpolly() {
+functionpolly() {
     const elemPlayButton = document.querySelector("#play-button");
     const elemVoice = document.querySelector("#voice");
     const elemText = document.querySelector("#text");
 
-    elemPlayButton.addEventListener("click", function(){
+    elemPlayButton.addEventListener("click", functionpoly() {
         console.log(elemVoice.value);
         console.log(elemText.value);
         
@@ -19,4 +19,4 @@
         elemAudio.play();
 
     });
-}());
+};
