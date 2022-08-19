@@ -1,9 +1,9 @@
-functionpolly() {
+function polly() {
     const elemPlayButton = document.querySelector("#play-button");
     const elemVoice = document.querySelector("#voice");
     const elemText = document.querySelector("#text");
 
-    elemPlayButton.addEventListener("click", functionpoly() {
+    elemPlayButton.addEventListener("click", polly() {
         console.log(elemVoice.value);
         console.log(elemText.value);
         
