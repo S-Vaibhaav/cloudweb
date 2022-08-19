@@ -3,7 +3,7 @@ function polly() {
     const elemVoice = document.querySelector("#voice");
     const elemText = document.querySelector("#text");
 
-    elemPlayButton.addEventListener("click", polly() {
+    elemPlayButton.addEventListener("click", function polly() {
         console.log(elemVoice.value);
         console.log(elemText.value);
         
