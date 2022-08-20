@@ -1,4 +1,4 @@
-function polly() {
+(function polly() {
     const elemPlayButton = document.querySelector("#play-button");
     const elemVoice = document.querySelector("#voice");
     const elemText = document.querySelector("#text");
@@ -20,4 +20,4 @@ function polly() {
         elemAudio.play();
 
     });
-};
+}());
