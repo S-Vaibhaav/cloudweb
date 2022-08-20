@@ -4,6 +4,7 @@ function polly() {
     const elemText = document.querySelector("#text");
 
     elemPlayButton.addEventListener("click", function polly() {
+        console.log("Hello");
         console.log(elemVoice.value);
         console.log(elemText.value);
         
